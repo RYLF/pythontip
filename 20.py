@@ -8,8 +8,9 @@
 
 # Test
 a, b="cagy",3
-e = []
+
 # Answer
+e = []
 for i in range(0,len(a)):
     c = ord(a[i])+b      # 转换成整数
     if c> 122:           # 如果大于z则减去26
